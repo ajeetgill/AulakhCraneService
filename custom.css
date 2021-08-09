@@ -1,0 +1,16 @@
+.services__heading{
+    /* clip-path: polygon(0 70%, 100% 0, 100% 100%, 0% 100%); */
+    text-align:center;
+    padding: .5em;
+    padding-top: 2em;
+    font-size: 3rem;
+    margin:0;
+    /* background: red; */
+}
+.services__chips{
+    background: #2e3141;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: .5em 1em;
+}
