@@ -1,16 +1,131 @@
+:root {
+    --dark: hsl(231, 17%, 22%);
+    --light2: hsl(227, 34%, 41%);
+    --light: hsl(227, 33%, 44%);
+    /* --white: #ffffff; */
+  }
+
+/* Classes are sorted according alphabetically */
+
+/* .contact__container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+} */
+.contact__social{
+    list-style: none;
+    padding-left: 0;
+    /* border-top: 1px solid; */
+    padding-top: 1em;
+}
+
+.logo--navbar{
+    width: 5.3em;
+    padding: .3em;
+}
+.message{
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+.message__heading{
+    padding-top: 1em;
+    margin: 0;
+}
+.message__link span{
+    /* background-color:red; */
+}
+.message__link{
+    padding: .5em;
+    /* background:yellow; */
+    /* margin: .25em; */
+    border-bottom: none;
+    /* background:red; */
+    font-size: 1.3rem;
+}
+.message__link:first-of-type{
+    padding-left: 0;
+    font-size: 1.18rem;
+    margin-left: 0;
+}
+.services__chips--container{
+    background: var(--dark);
+    padding: .5em;
+    width: max-content;
+    margin: .5em;
+    margin-right: 0;
+    margin-left: auto;
+    border-radius: 5px;
+
+}
+.services__chips{
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-bottom: 2px solid var(--dark);
+    padding: .5em 1em;
+    margin: .5em;
+    transition: all 0.2s;
+    /* cursor: pointer; */
+    cursor: default;
+    background: var(--light2);
+    
+}
+/* .services__chips:hover{
+    background: var(--light);
+} */
+.services__chips:first-child{
+    margin-left: 0;
+}
+.services__chips:last-child{
+    margin-right: 0;
+}
+
+
+
 .services__heading{
     /* clip-path: polygon(0 70%, 100% 0, 100% 100%, 0% 100%); */
     text-align:center;
     padding: .5em;
     padding-top: 2em;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin:0;
     /* background: red; */
 }
-.services__chips{
-    background: #2e3141;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: .5em 1em;
+.services__heading--models{
+    /* text-align:left; */
+    font-size: .8rem;
+    /* padding: .5em; */
+    padding-top: 2em;
+    margin-bottom: .5em;
+    
+}
+
+
+.services__image{
+    width: 35em !important;
+}
+.services__info{
+    font-size:.95rem;
+}
+
+.services__name{
+    font-size: 1.5rem;
+}
+
+
+/* IDs */
+#jcb_14xw{
+    position:relative;
+}
+#jcb_14xw:hover::after{
+    display: block;
+}
+#jcb_14xw::afterr{
+    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, accusantium deserunt veniam repellat animi distinctio labore dolore, alias officiis ad ipsa. Velit laboriosam earum libero est aliquid sed, odit quod.';
+    display:none;
+    position: absolute;
+    padding: .5em;
+    margin: 0.5em;
+    z-index: 5;
+    text-align: left;
+    top: 0;
 }
