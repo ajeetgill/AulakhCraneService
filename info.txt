@@ -2,8 +2,6 @@ Specialist in- Heavy machinery Loading,Unloading and Shifting.
 Contact for any type of machinery, loading, unloading & shifting forklift, crane, hydra, hydraulic crane, frana & jcb
 
 [ ] Services ----
-Hydra 12 ton 36ft 42ft 53ft
-Hydra 14 ton 36ft 42ft 53 ft
 Frana 15 ton 63ft
 Frana 20 ton 63ft
 
@@ -14,11 +12,6 @@ Jcb 2dx 3dx
 Heavy-labour for Machine shifting
 Hydra box joint for light repair etc available  iska dekh leo kase daal skte na dalle to koi ni
 
---------
-Forklift 3 ton 
-ACE: https://www.ace-cranes.com/equipment/detail/forklift_trucks
-Q. Does it run on diesel, lpg, electric?
-----------
 
 
 [ ] Clients we've worked with??
@@ -26,25 +19,23 @@ Q. Does it run on diesel, lpg, electric?
 
 Forklift Trucks:
 
-Model: AF 40D
 We provide Diesel Forklifts trucks services which are used to lift, shift and stack material. 
+Model: AF 40D
 Lifting Capacity : 4ton
 Mast Height Range : 3-4m
 Engine power : 60 bhp
 
 PICK AND CARRY CRANES:
-Pick-n-Carry are widely used throughout engineering, construction and infrastructure industry. 
-These machines are used for loading, unloading, moving, shifting and erecting material.
+Pick-n-Carry are widely used for loading, unloading, moving, shifting and erecting material.
 we currently provide services with these cranes from 9 tons to 25 tons capacity with 36ft to 53ft boom size.
 We can also provide Light repair box joint with our Pick and carry cranes.
+> Hydra 12 ton 36ft 42ft 53ft
+> Hydra 14 ton 36ft 42ft 53 ft
 
 
-BACKHOE LOADERS :
-Backhoe Loaders are used in the construction and infrastructure sector for digging, moving, grading and loading earth and other loose aggregates.
-These machinery also find application in heavy industry and mining activity. We provide Backhoe Loaders services  in both 2WD / 4WD configurations.
-Model available JCB 2DX and JCB 3DX
 
 
+Pick-n-Carry are widely used throughout engineering, construction and infrastructure industry. used in the construction and infrastructure sector.
 ______________________________________________________
 ------------------------------------------------------
 DONE BELOW THIS --------------------------------------
@@ -54,5 +45,11 @@ DONE BELOW THIS --------------------------------------
 [X] 7830446916 ( main  ) : calling + whatsapp
 [X] IG : https://instagram.com/aulakh_crane
 [X] FB : https://www.facebook.com/harkawaulakh
+
+
+BACKHOE LOADERS :
+Backhoe Loaders are used in the construction and infrastructure sector for digging, moving, grading and loading earth and other loose aggregates.
+These machinery also find application in heavy industry and mining activity. We provide Backhoe Loaders services  in both 2WD / 4WD configurations.
+Model available JCB 2DX and JCB 3DX
 
 
