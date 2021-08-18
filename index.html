@@ -70,7 +70,7 @@
 						<img class="image services__image" src="asset/pick_and_carry_cranes_14xw-removebg.jpg" alt="" />
 
 						<div class="content">
-							<h2 class="major services__name">Pick and Carry Cranes</h2>
+							<h2 class="major services__name">Hydra • Pick and Carry Cranes</h2>
 
 							<p class="">Pick-n-Carry are widely used throughout engineering, construction
 								and infrastructure
@@ -80,6 +80,8 @@
 									capacity</strong> with
 								<strong>36ft to 53ft boom size</strong>.<br>
 								<em>We can also provide Light repair box joint with our Pick and carry cranes.</em>
+							</p>
+							<p><em><strong>We can also provide Light repair box joint with our Pick and carry cranes.</strong></em>
 							</p>
 							<div class="ss ss--odd">
 								<div class="services__chips--container">
@@ -91,6 +93,10 @@
 									<h3 class="services__heading--models">Available in </h3>
 									<span id="" class="services__extra-details">2WD</span>
 									<span id="" class="services__extra-details">4WD </span>
+								</div>
+								<div class="services__chips--container">
+									<h3 class="services__heading--models">Boom Size </h3>
+									<span id="" class="services__extra-details">36ft &nbsp;to&nbsp; 53ft</span>
 								</div>
 							</div>
 						</div>
@@ -157,6 +163,37 @@
 					</div>
 
 				</section>
+				<section id="two" class="wrapper alt spotlight style2">
+					<div class="inner">
+						<img class="image services__image" src="asset/JCB.jpg" alt="" />
+						<div class="content">
+							<h2 class="major">Frana • Mobile Cranes</h2>
+							<p>
+								NextGen Pick-n-Carry which are widely used throughout engineering, construction and infrastructure industry. These machines are used for loading, unloading, moving, shifting and erecting material.
+							</p>
+							<p><em><strong>We can also provide Light repair box joint with our Pick and carry cranes.</strong></em>
+							</p>
+							<div class="ss ss--even">
+								<div class="services__chips--container">
+									<h3 class="services__heading--models">Models Available</h3>
+									<span id="jcb_14xw" class="services__extra-details">FX 150 &nbsp;•&nbsp; 15 TON</span>
+									<span class="services__extra-details">FX 210 &nbsp;•&nbsp; 20 TON</span>
+								</div>
+								<div class="services__chips--container">
+									<h4 class="services__heading--models">Lifting Capacity</h4>
+									<span id="" class="services__extra-details">15 TON</span>
+									<span id="" class="services__extra-details">10 TON</span>
+								</div>
+								<!-- <div class="services__chips--container">
+									<h3 class="services__heading--models">Available in </h3>
+									<span id="" class="services__extra-details">2WD</span>
+									<span id="" class="services__extra-details">4WD </span>
+								</div> -->
+							</div>
+
+						</div>
+				</section>
+				
 				<section class="message">
 					<h6 class="message__heading">Message Us on </h6>
 					<a class="message__link" href="#contact-via-email"> <span class="icon solid fa-envelope"></span></a>
@@ -234,26 +271,28 @@
 			<section id="footer">
 				<div class="inner">
 					<h2 class="major">Get in touch</h2>
-					<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat.
-						Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem
-						lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-					<form method="post" action="#" id="contact-via-email">
+					<p>Our machines are widely used throughout engineering, construction and infrastructure industry. Contact us today.</p>
+					<form method="post" action="#" id="contactViaEmail" name="contactViaEmail"  onsubmit="return" >
 						<div class="fields">
 							<div class="field">
 								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
+								<input type="text" name="name" id="name" value="jacks" />
 							</div>
 							<div class="field">
 								<label for="email">Email</label>
-								<input type="email" name="email" id="email" />
+								<input type="email" name="email" id="email"  placeholder="abc@xyz.com" value="ab@cs.com"  required />
+							</div>
+							<div class="field">
+								<label for="phone">Phone Number</label>
+								<input type="tel" name="phone" id="phone"  placeholder="9876543210"  required value="1234561231" />
 							</div>
 							<div class="field">
 								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="4"></textarea>
+								<textarea name="message" id="message" rows="4">Messasfasdasd</textarea>
 							</div>
 						</div>
 						<ul class="actions">
-							<li><input type="submit" value="Send Email" /></li>
+							<li><button type="button"  onclick="sendEmail();" value="">Send Email</button></li>
 						</ul>
 					</form>
 					<ul class="contact">
@@ -304,6 +343,10 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 
+		<script src="./libs/smtp.js" defer></script>
+		<script src="./libs/sweetalert.min.js" defer></script>
+		<script src="./libs/dev_smtp.js" defer></script>
+		
 	</body>
 
 </html>
