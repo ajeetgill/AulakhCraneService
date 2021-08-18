@@ -8,16 +8,16 @@ function sendEmail() {
   const customerName = formFields.name.value;
   const customerEmail = formFields.email.value;
   const customerPhoneNumber = formFields.phone.value;
-  const emailSubject = `${customerName} contact you from website`;
+  const emailSubject = `${customerName} contacted via website`;
+  const customerMessage = formFields.message.value ? formFields.message.value : '(N/A) Message was not provided by customer';
   const emailBody = `
   ${customerName}<br>
   ${customerPhoneNumber}<br>
   ${customerEmail}<br><br>
   Message:<br>
-  ${formFields.message.value}
+  ${customerMessage}
   `;
 
-  
   const sendEmailTo = 'forsharedprojects@gmail.com';
   // const sendEmailTo = 'info@aulakhcraneservice.in';
   Email.send({

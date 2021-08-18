@@ -23,9 +23,9 @@
 			<header id="header" class="alt">
 				<h1><a href="index.html"><img class="logo--navbar" src="./asset/ACS_logo_text_yellow.svg"
 							alt="Aulakh Crane Service Logo" width=""></a></h1>
-				<nav>
+				<!-- <nav>
 					<a href="#menu">Menu</a>
-				</nav>
+				</nav> -->
 			</header>
 
 			<!-- Menu -->
@@ -276,19 +276,19 @@
 						<div class="fields">
 							<div class="field">
 								<label for="name">Name</label>
-								<input type="text" name="name" id="name" value="jacks" />
+								<input type="text" name="name" id="name" required />
 							</div>
 							<div class="field">
 								<label for="email">Email</label>
-								<input type="email" name="email" id="email"  placeholder="abc@xyz.com" value="ab@cs.com"  required />
+								<input type="email" name="email" id="email"  placeholder="abc@xyz.com"  required />
 							</div>
 							<div class="field">
 								<label for="phone">Phone Number</label>
-								<input type="tel" name="phone" id="phone"  placeholder="9876543210"  required value="1234561231" />
+								<input type="tel" name="phone" id="phone" minlength="10" maxlength="10" placeholder="9876543210"  required />
 							</div>
 							<div class="field">
 								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="4">Messasfasdasd</textarea>
+								<textarea name="message" id="message" rows="4"></textarea>
 							</div>
 						</div>
 						<ul class="actions">
