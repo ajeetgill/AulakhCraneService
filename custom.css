@@ -6,6 +6,42 @@
   }
 
 /* Classes are sorted according alphabetically */
+.clients__container{
+    display: grid;
+    background: url('./asset/bottom-cranes.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid white;
+}
+.clients__heading{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2rem;
+}
+.clients-list>img{
+    margin:auto;
+    max-width: 25vw;
+    height: auto;
+    max-height: 100px;
+    border-radius:.5rem;
+    transition: 0.2s filter;
+}
+.clients-list>img:hover{
+    filter: grayscale(0);
+}
+.clients-list{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    justify-content: space-around;
+    gap: 1rem;
+    margin: auto;
+    align-items: center;
+    align-content: space-evenly;
+    margin: 5vmin;
+    margin-bottom: 20vmax;
+}
+
+
 .contact__social{
     list-style: none;
     padding-left: 0;
@@ -13,10 +49,6 @@
     padding-top: 1em;
 }
 
-.logo--navbar{
-    width: 5.3em;
-    padding: .3em;
-}
 .message{
     border: 2px solid rgba(255, 255, 255, 0.4);
     z-index: 500;
@@ -47,6 +79,11 @@
     font-size: 1.18rem;
     margin-left: 0;
 }
+
+.logo{
+    width:80%;
+}
+
 .services__chips--container{
     background: var(--dark);
     padding: .5em;
@@ -136,6 +173,9 @@
 }
 
 /* IDs */
+#footer{
+    margin-top: 0;
+}
 #jcb_14xw{
     position:relative;
 }
