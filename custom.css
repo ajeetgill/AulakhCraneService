@@ -82,6 +82,7 @@
 
 .logo{
     width:80%;
+    max-width: 500px;
 }
 
 .services__chips--container{
